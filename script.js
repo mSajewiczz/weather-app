@@ -58,7 +58,7 @@ const enterCheck = e => {
 	}
 };
 
-getWeather();
+
 
 input.addEventListener("keyup", enterCheck);
 button.addEventListener("click", getWeather);
