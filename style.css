@@ -117,7 +117,7 @@ button:hover {
 	color: tomato;
 }
 
-@media (max-width: 828px) {
+@media (max-width: 390px) {
 
 	.headings,
 	.weather-info {
