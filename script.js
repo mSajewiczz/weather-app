@@ -23,7 +23,7 @@ const getWeather = () => {
 			const temp = res.data.main.temp;
 			const hum = res.data.main.humidity;
 			const status = Object.assign({}, ...res.data.weather);
-			warning.textContent = ",";
+			warning.textContent = "";
 			input.value = "";
 
 			if (status.id >= 200 && status.id < 300) {
